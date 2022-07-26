@@ -1,0 +1,62 @@
+[0.009s] Invoking command in '/home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description -DCMAKE_INSTALL_PREFIX=/home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description
+[0.048s] -- The C compiler identification is GNU 9.4.0
+[0.136s] -- The CXX compiler identification is GNU 9.4.0
+[0.144s] -- Check for working C compiler: /usr/bin/cc
+[0.256s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.258s] -- Detecting C compiler ABI info
+[0.369s] -- Detecting C compiler ABI info - done
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.393s] -- Check for working CXX compiler: /usr/bin/c++
+[0.520s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.522s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.670s] -- Detecting CXX compile features
+[0.671s] -- Detecting CXX compile features - done
+[0.674s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.703s] -- Found PythonInterp: /home/manzur2/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.703s] -- Using PYTHON_EXECUTABLE: /home/manzur2/miniconda3/bin/python3
+[0.845s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.898s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.900s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.900s] -- Configured cppcheck include dirs: 
+[0.900s] -- Configured cppcheck exclude dirs and/or files: 
+[0.902s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.902s] -- Configured cpplint exclude dirs and/or files: 
+[0.903s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.903s] -- Added test 'lint_cmake' to check CMake code style
+[0.904s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.906s] -- Added test 'uncrustify' to check C / C++ code style
+[0.906s] -- Configured uncrustify additional arguments: 
+[0.907s] -- Added test 'xmllint' to check XML markup files
+[0.909s] -- Configuring done
+[0.911s] -- Generating done
+[0.912s] -- Build files have been written to: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description
+[0.916s] Invoked command in '/home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description -DCMAKE_INSTALL_PREFIX=/home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description
+[0.920s] Invoking command in '/home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description -- -j16 -l16
+[0.982s] Invoked command in '/home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description -- -j16 -l16
+[1.035s] Invoking command in '/home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description
+[1.047s] -- Install configuration: ""
+[1.047s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/src
+[1.047s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/src/description
+[1.047s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/src/description/ros2_diff_drive_robot_description.urdf
+[1.048s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/launch
+[1.048s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/launch/display.launch.py
+[1.048s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/rviz
+[1.048s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/rviz/urdf_config.rviz
+[1.048s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ament_index/resource_index/package_run_dependencies/ros2_diff_drive_robot_description
+[1.048s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ament_index/resource_index/parent_prefix_path/ros2_diff_drive_robot_description
+[1.048s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/environment/ament_prefix_path.sh
+[1.049s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/environment/ament_prefix_path.dsv
+[1.049s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/environment/path.sh
+[1.049s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/environment/path.dsv
+[1.049s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/local_setup.bash
+[1.049s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/local_setup.sh
+[1.050s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/local_setup.zsh
+[1.050s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/local_setup.dsv
+[1.050s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/package.dsv
+[1.050s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ament_index/resource_index/packages/ros2_diff_drive_robot_description
+[1.050s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/cmake/ros2_diff_drive_robot_descriptionConfig.cmake
+[1.050s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/cmake/ros2_diff_drive_robot_descriptionConfig-version.cmake
+[1.051s] -- Installing: /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/install/ros2_diff_drive_robot_description/share/ros2_diff_drive_robot_description/package.xml
+[1.053s] Invoked command in '/home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/manzur2/ros2_ws/src/ros2_diff_drive_robot_description/build/ros2_diff_drive_robot_description
